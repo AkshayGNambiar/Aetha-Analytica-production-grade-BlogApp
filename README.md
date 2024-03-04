@@ -5,12 +5,8 @@
 ##Controllers: Contains controller functions to handle requests.<br> ##Models: Contains Mongoose models for user and post entities.<br> ##Routes: Defines routes for handling HTTP requests.<br> ##Middleware: Contains middleware functions for authentication and request validation.<br>## app.js: Main application file where Express is configured and routes are connected. <br>##.env: Stores environment variables. <br>##server.js: Entry point of the application
 
 
+Clone repository<br>
 
-Blog App API This is a RESTful API for managing a blog application. Users can register, log in, create, update, and delete blog posts.<br>
-
-Project Structure The project structure is organized as follows:<dr>
-
-Controllers: Contains controller functions to handle requests.<br> Models: Contains Mongoose models for user and post entities. <br>Routes: Defines routes for handling HTTP requests. <br>Middleware: Contains middleware functions for authentication and request validation.<br> app.js: Main application file where Express is configured and routes are connected. <br>.env: Stores environment variables. <br>server.js: Entry point of the application. <br>Setup Clone the repository:<br>
 
 Install dependencies:<br>
 
@@ -23,17 +19,7 @@ Create a .env file in the root directory. Add the following environment variable
 PORT=3000 JWT_SECRET=your_secret_key <br>Start the server: npm start<br>
 
 
-Blog App API This is a RESTful API for managing a blog application. Users can register, log in, create, update, and delete blog posts.<br>
-
-Project Structure The project structure is organized as follows:<br>
-
-Controllers: Contains controller functions to handle requests.<br>
-Models: Contains Mongoose models for user and post entities.<br>
-Routes: Defines routes for handling HTTP requests.<br>
-Middleware: Contains middleware functions for authentication and request validation.<br>
-app.js: Main application file where Express is configured and routes are connected.<br>
-.env: Stores environment variables.<br>
-server.js: Entry point of the application.<br>
+Blog App API <br><br>
 
 *
 
