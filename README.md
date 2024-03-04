@@ -14,7 +14,7 @@ Controllers: Contains controller functions to handle requests.<br> Models: Conta
 
 Install dependencies:<br>
 
-npm install Set up MongoDB:<br>
+npm install <br>Set up MongoDB:<br>
 
 Make sure MongoDB is installed and running. Create a MongoDB database named blog_app. Set environment variables:<br>
 
@@ -27,14 +27,13 @@ Blog App API This is a RESTful API for managing a blog application. Users can re
 
 Project Structure The project structure is organized as follows:<br>
 
-Controllers: Contains controller functions to handle requests.
-Models: Contains Mongoose models for user and post entities.
-Routes: Defines routes for handling HTTP requests.
-Middleware: Contains middleware functions for authentication and request validation.
-app.js: Main application file where Express is configured and routes are connected.
-.env: Stores environment variables.
-server.js: Entry point of the application.
-##Setup *Clone the repository:
+Controllers: Contains controller functions to handle requests.<br>
+Models: Contains Mongoose models for user and post entities.<br>
+Routes: Defines routes for handling HTTP requests.<br>
+Middleware: Contains middleware functions for authentication and request validation.<br>
+app.js: Main application file where Express is configured and routes are connected.<br>
+.env: Stores environment variables.<br>
+server.js: Entry point of the application.<br>
 
 *
 
