@@ -4,7 +4,7 @@
 
 ##Controllers: Contains controller functions to handle requests.<br> ##Models: Contains Mongoose models for user and post entities. ##Routes: Defines routes for handling HTTP requests.<br> ##Middleware: Contains middleware functions for authentication and request validation.<br>## app.js: Main application file where Express is configured and routes are connected. <br>##.env: Stores environment variables. <br>##server.js: Entry point of the application
 
-To create a README.md file for your project documentation, you can include information about the project structure, how to set it up, and how to use the provided functionality. Here's an example of what you can include:
+
 
 Blog App API This is a RESTful API for managing a blog application. Users can register, log in, create, update, and delete blog posts.<br>
 
@@ -38,17 +38,17 @@ server.js: Entry point of the application.
 
 *
 
-##API Endpoints
-#Authentication
-*1.POST /api/auth/register: Register a new user.
-*2.POST /api/auth/login: Log in a user and receive a JWT.
-*3.POST /api/auth/logout: Log out a user.
-#Blog Posts
-*1.GET /api/posts: Fetch all blog posts.
-*2.POST /api/posts: Create a new blog post (authenticated users only).
-*3.GET /api/posts/:postId: Fetch a specific blog post.
-*4.PUT /api/posts/:postId: Update a specific blog post (authenticated users only).
-*5.DELETE /api/posts/:postId: Delete a specific blog post (authenticated users only).
+##API Endpoints<br>
+#Authentication<br>
+*1.POST /api/auth/register: Register a new user.<br>
+*2.POST /api/auth/login: Log in a user and receive a JWT.<br>
+*3.POST /api/auth/logout: Log out a user.<br>
+#Blog Posts<br>
+*1.GET /api/posts: Fetch all blog posts.<br>
+*2.POST /api/posts: Create a new blog post (authenticated users only).<br>
+*3.GET /api/posts/:postId: Fetch a specific blog post.<br>
+*4.PUT /api/posts/:postId: Update a specific blog post (authenticated users only).<br>
+*5.DELETE /api/posts/:postId: Delete a specific blog post (authenticated users only).<br>
 Libraries used:<br>
 #express-for creating Rest APIs<br>
 #jsonwebtoken-for authentication using json webtoken<br>
