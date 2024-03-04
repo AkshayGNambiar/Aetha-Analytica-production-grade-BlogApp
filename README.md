@@ -2,7 +2,7 @@
 
 #Project Structure The project structure is organized as follows:<br>
 
-##Controllers: Contains controller functions to handle requests.<br> ##Models: Contains Mongoose models for user and post entities. ##Routes: Defines routes for handling HTTP requests.<br> ##Middleware: Contains middleware functions for authentication and request validation.<br>## app.js: Main application file where Express is configured and routes are connected. <br>##.env: Stores environment variables. <br>##server.js: Entry point of the application
+##Controllers: Contains controller functions to handle requests.<br> ##Models: Contains Mongoose models for user and post entities.<br> ##Routes: Defines routes for handling HTTP requests.<br> ##Middleware: Contains middleware functions for authentication and request validation.<br>## app.js: Main application file where Express is configured and routes are connected. <br>##.env: Stores environment variables. <br>##server.js: Entry point of the application
 
 
 
@@ -10,22 +10,22 @@ Blog App API This is a RESTful API for managing a blog application. Users can re
 
 Project Structure The project structure is organized as follows:<dr>
 
-Controllers: Contains controller functions to handle requests.<br> Models: Contains Mongoose models for user and post entities. <br>Routes: Defines routes for handling HTTP requests. <br>Middleware: Contains middleware functions for authentication and request validation.<br> app.js: Main application file where Express is configured and routes are connected. <br>.env: Stores environment variables. <br>server.js: Entry point of the application. <br>Setup Clone the repository:
+Controllers: Contains controller functions to handle requests.<br> Models: Contains Mongoose models for user and post entities. <br>Routes: Defines routes for handling HTTP requests. <br>Middleware: Contains middleware functions for authentication and request validation.<br> app.js: Main application file where Express is configured and routes are connected. <br>.env: Stores environment variables. <br>server.js: Entry point of the application. <br>Setup Clone the repository:<br>
 
-Install dependencies:
+Install dependencies:<br>
 
-npm install Set up MongoDB:
+npm install Set up MongoDB:<br>
 
-Make sure MongoDB is installed and running. Create a MongoDB database named blog_app. Set environment variables:
+Make sure MongoDB is installed and running. Create a MongoDB database named blog_app. Set environment variables:<br>
 
-Create a .env file in the root directory. Add the following environment variables:
+Create a .env file in the root directory. Add the following environment variables:<br>
 
 PORT=3000 JWT_SECRET=your_secret_key <br>Start the server: npm start<br>
 
 
-Blog App API This is a RESTful API for managing a blog application. Users can register, log in, create, update, and delete blog posts.
+Blog App API This is a RESTful API for managing a blog application. Users can register, log in, create, update, and delete blog posts.<br>
 
-Project Structure The project structure is organized as follows:
+Project Structure The project structure is organized as follows:<br>
 
 Controllers: Contains controller functions to handle requests.
 Models: Contains Mongoose models for user and post entities.
